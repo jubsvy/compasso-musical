@@ -239,40 +239,43 @@
     </section>
 
     <!--Seção Contatos-->
-    <section id="contatos">
-      <h2>Fale conosco</h2>
-      <p>Tem dúvidas sobre algum instrumentos? Mande uma mensagem ou venha nos visitar.</p>
-      <address>
-        <p>
-          Loja física: <strong>Centro Histórico, Cuiabá-MT</strong>
-        </p>
-      </address>
-      <form action="#">
-        <label for="nome">Nome Completo</label>
-        <br>
-        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
-        <br><br>
-        <label for="email">E-mail</label>
-        <br>
-        <input type="email" name="email" id="email" placeholder="Digite o seu email" required>
-        <br><br>
-        <label for="departamento">Departamento</label>
-        <br>
-        <select name="departamento" id="departamento">
-          <option value="vendas">Vendas</option>
-          <option value="suporte">Suporte Técnico</option>
-          <option value="financeiro">Financeiro</option>
-          <option value="sugestao">Sugestões</option>
-        </select>
-        <br><br>
-        <label for="mesagem">Mensagem</label>
-        <br>
-        <textarea name="mensagem" id="mensagem" rows="10" placeholder="Digite sua mensagem"></textarea>
-        <br><br>
-        <button type="submit">Enviar Mensagem</button>
-      </form>
+    <section id="contatos" class="container" style="background-color: #eceff1;">
+      <h2 class="tituloSecao">Fale conosco</h2>
+      <div style="max-width: 600px; margin: 0 auto; background: #ffffff; padding: 2rem; border-radius: 8px; box-shadow: 0 10px 10px rgba( 0, 0, 0, 0.3);">
+        <p style="text-align: center; margin-bottom: 2rem; ">Tem dúvidas sobre algum instrumentos? Mande uma mensagem ou venha nos visitar.</p>
+        <address style="text-align: center; margin-bottom: 2rem; font-style: normal;">
+          <p>
+            Loja física: <strong>Centro Histórico, Cuiabá-MT</strong>
+          </p>
+        </address>
+        <form action="#">
+          <label for="nome" style="font-weight: bold;">Nome Completo</label>
+          
+          <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required style="width: 100%; padding: 0.8rem; margin: 0.5rem  0 0.5rem 0; border: 1px solid #cccccc; border-radius: 4px; ">
+          
+          <label for="email"  style="font-weight: bold;">E-mail</label>
+          
+          <input type="email" name="email" id="email" placeholder="Digite o seu email" required style="width: 100%; padding: 0.8rem; margin: 0.5rem  0 0.5rem 0; border: 1px solid #cccccc; border-radius: 4px; ">
+          
+          <label for="departamento"  style="font-weight: bold;">Departamento</label>
+          
+          <select name="departamento" id="departamento" style="width: 100%; padding: 0.8rem; margin: 0.5rem  0 0.5rem 0; border: 1px solid #cccccc; border-radius: 4px;">
+            <option value="vendas">Vendas</option>
+            <option value="suporte">Suporte Técnico</option>
+            <option value="financeiro">Financeiro</option>
+            <option value="sugestao">Sugestões</option>
+          </select>
+          
+          <label for="mesagem"  style="font-weight: bold;">Mensagem</label>
+          >
+          <textarea name="mensagem" id="mensagem" rows="10" style="width: 100%; padding: 0.8rem; margin: 0.5rem  0 0.5rem 0; border: 1px solid #cccccc; border-radius: 4px; " placeholder="Digite sua mensagem"></textarea>
+          
+          <button type="submit" class="botaoPrincipal" style="width: 100%; border: none; cursor: pointer;">Enviar Mensagem</button>
+        </form>
+      </div>
     </section>
     </main>
+
 
     <!--Rodapé do Site-->
     <footer>
